@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22191b4d-abbf-4a3f-9061-d1a71685bac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datarank_wordcloud_circle_sqrt_font.png" beforeDir="false" afterPath="$PROJECT_DIR$/datarank_wordcloud_circle_sqrt_font.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <caret line="9" column="32" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -296,7 +293,7 @@
       <workItem from="1572199787372" duration="2140000" />
       <workItem from="1572219390044" duration="430000" />
       <workItem from="1572224511184" duration="1732000" />
-      <workItem from="1572226848554" duration="7386000" />
+      <workItem from="1572226848554" duration="7663000" />
     </task>
     <task id="LOCAL-00001" summary="tracker first commit">
       <created>1572201533867</created>
@@ -305,17 +302,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572201533867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tracker first commit">
+      <created>1572234475033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572234475033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54438000" />
+    <option name="totallyTimeSpent" value="54715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102013424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490604" weight="0.30496454" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490604" visible="true" weight="0.30496454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="32" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
