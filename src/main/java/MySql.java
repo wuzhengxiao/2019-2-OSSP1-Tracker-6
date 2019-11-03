@@ -12,7 +12,7 @@ public class MySql {
     private String password = "bbang0105@@";//password
 
     //mysql driver loading
-    public void DriverLoading(){
+    public void DriverLoading() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
@@ -22,24 +22,25 @@ public class MySql {
     }
 
     //mysql 연결
-    public void Connect(){
+    public void Connect() {
         try {
             connection = DriverManager.getConnection("jdbc:mysql://" + server + "/" + database + "?useSSL=false&useUnicode=true&characterEncoding=utf8", user_name, password);
             System.out.println("정상적으로 연결되었습니다.");
-        } catch(SQLException e) {
+        } catch (SQLException e) {
             System.err.println("con 오류:" + e.getMessage());
             e.printStackTrace();
         }
     }
 
     //mysql 연결 끊기.
-    public void DisConnect(){
+    public void DisConnect() {
         try {
-            if(connection != null) {
+            if (connection != null) {
                 connection.close();
                 System.out.println("정상적으로 해제되었습니다.");
             }
-        } catch (SQLException e) {}
+        } catch (SQLException e) {
+        }
     }
 
     //기존에 남아있던 table 데이터 초기화.
@@ -53,9 +54,9 @@ public class MySql {
     }
 
     //table에 데이터 입력.
-    public void Insert(String word,int frequency) throws SQLException {
+    public void Insert(String word, int frequency, String time) throws SQLException {
         //SQL 쿼리 작성.
-        String insertSql = "insert into word_table (data1,data2) values (" + "\"" + word + "\"" + ", " + frequency + ")";
+        String insertSql = "insert into word_table (data1,data2,data3) values (" + "\"" + word + "\"" + ", " + frequency + "," + "\"" + time + "\"" + ")";
         //SQL 쿼리 실행.
         statement.executeUpdate(insertSql);
 

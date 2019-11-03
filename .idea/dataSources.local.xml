@@ -7,5 +7,9 @@
       <user-name>root</user-name>
       <introspection-schemas>*:</introspection-schemas>
     </data-source>
+    <data-source name="@localhost" uuid="9e378468-0161-4d8a-ae83-43c89a28263b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+    </data-source>
   </component>
 </project>

@@ -21,11 +21,12 @@ public class MainApp {
         mysql.DriverLoading();
         //mysql 연결
         mysql.Connect();
-        //기존에 있던 table 데이터 정리.
+        //기존에 있던 table 데이터 초기화.
         mysql.ResetTable();
         //테이블에 데이터 삽입.
+
         for(int i=0;i<frequencyAnalyze.getSize();i++){
-            mysql.Insert(frequencyAnalyze.getWord(i),frequencyAnalyze.getFrequency(i));
+            mysql.Insert(frequencyAnalyze.getWord(i),frequencyAnalyze.getFrequency(i),crawler.getTime());
         }
         //테이블 연결 끊기.
         mysql.DisConnect();
