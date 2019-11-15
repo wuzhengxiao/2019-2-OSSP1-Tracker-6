@@ -46,8 +46,8 @@ public class Crawler extends AsyncTask<Void, Void, String> {
     protected String doInBackground(Void... voids) {
         SELECT_TAG = "article[created_at^=" + time + "]";
         //아이디 및 비밀번호
-        String ID = "zlarbals";
-        String PW = "bbang0105@@";
+        String ID = "아이디";
+        String PW = "비밀번호";
 
         // 로그인 전송할 폼 데이터
         Map<String, String> data = new HashMap();
