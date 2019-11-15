@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.List;
 
 public class Analyzer {
-    private static String filePath = "C:\\Program Files\\pjt\\intelly_workspace\\EveryTimeCrawler\\test.txt";
     private FrequencyAnalyzer frequencyAnalyzer;
     private List<WordFrequency> wordFrequencies;
     private List<String> nounData;

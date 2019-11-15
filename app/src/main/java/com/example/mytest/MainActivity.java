@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //divide and conquer
 
-        Crawler jsoupAsyncTask = new Crawler();
+        Crawler crawler = new Crawler();
         try {
-            titleCollection = jsoupAsyncTask.execute().get();
+            titleCollection = crawler.execute().get();
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         analyzer.DataLoad(nounData);
 
         for(int i=0;i<analyzer.getSize();i++){
-            System.out.println("Word = " + analyzer.getWord(i) + "Frequency = " + analyzer.getFrequency(i) +" Time = " + jsoupAsyncTask.getTime());
+            System.out.println("Word = " + analyzer.getWord(i) + "Frequency = " + analyzer.getFrequency(i) +" Time = " + crawler.getTime());
         }
 
 
