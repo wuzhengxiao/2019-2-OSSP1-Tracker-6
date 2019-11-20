@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background01"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/todaydate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dateNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right|center_horizontal|center_vertical"
+            android:layout_marginTop="19dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/NN"
+        android:layout_width="203dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previousKeyword"
+            android:layout_width="203dp"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:background="@android:color/transparent"
+            android:text="이전 키워드"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MM"
+        android:layout_width="203dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="fill_horizontal|top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/currentKeyword"
+            android:layout_width="203dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right|top"
+            android:background="@android:color/transparent"
+            android:text="현재 키워드"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</RelativeLayout>
